@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --port=1000 --open",
     "build": "ng build --prod --base-href=https://pritraj.github.io/pritraj/",
     "deploy": "ng deploy --base-href=https://pritraj.github.io/pritraj/",
     "test": "ng test",
@@ -21,6 +21,8 @@
     "@angular/platform-browser-dynamic": "~11.0.6",
     "@angular/router": "~11.0.6",
     "@angular/service-worker": "~11.0.6",
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "bootstrap": "^5.0.0-beta1",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
